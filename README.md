@@ -17,14 +17,14 @@
 
 The "Hello, World!" program is a simple program that outputs "Hello, World!" to the screen. It is often used as a first step in learning a new programming language.
 
-```
+```python
 print("Hello, World!"),
 ```
-Variables and Types
+### Variables and Types
 Variables are used to store information to be referenced and manipulated in a program.  supports different types of variables including integers, floats, and strings.
 
 
-```
+```python
 myint = 7
 myfloat = 7.0
 mystring = "hello"
@@ -33,7 +33,7 @@ mystring = "hello"
 Lists are collections of items in a particular order. Lists can contain items of different types.
 
 
-```
+```python
 mylist = [1, 2, 3]
 mylist.append(4)
 print(mylist)  # Output: [1, 2, 3, 4]
@@ -42,7 +42,7 @@ print(mylist)  # Output: [1, 2, 3, 4]
 Operators are used to perform operations on variables and values.  supports arithmetic, comparison, logical, and bitwise operators.
 
 
-```
+```python
 x = 1 + 2 * 3 / 4.0
 print(x)  # Output: 2.5
 ```
@@ -50,7 +50,7 @@ print(x)  # Output: 2.5
 String formatting allows you to construct strings dynamically by inserting values into placeholders within a string.
 
 
-```
+```python
 name = "John"
 print("Hello, %s!" % name)  # Output: Hello, John!
 ```
@@ -58,7 +58,7 @@ print("Hello, %s!" % name)  # Output: Hello, John!
  provides various string operations such as concatenation, slicing, and finding the length of a string.
 
 
-```
+```python
 s = "Hello"
 print(s + " World")  # Output: Hello World
 print(s[1])  # Output: e
@@ -68,7 +68,7 @@ print(len(s))  # Output: 5
 Conditions allow you to execute code only if a certain condition is met using if, elif, and else statements.
 
 
-```
+```python
 x = 10
 if x < 0:
     print("Negative")
@@ -81,7 +81,7 @@ else:
 Loops are used to iterate over a sequence (such as a list, tuple, string) or perform an action repeatedly.
 
 
-```
+```python
 for i in range(5):
     print(i)  # Output: 0 1 2 3 4
 
@@ -94,7 +94,7 @@ while i < 5:
 Functions are blocks of reusable code that perform a specific task. They can accept arguments and return values.
 
 
-```
+```python
 def add(a, b):
     return a + b
 
@@ -104,7 +104,7 @@ print(add(2, 3))  # Output: 5
  is an object-oriented programming language. You can create classes to define objects with attributes and methods.
 
 
-```
+```python
 class Person:
     def __init__(self, name):
         self.name = name
@@ -119,7 +119,7 @@ p.greet()  # Output: Hello, my name is John
 Dictionaries are collections of key-value pairs. Keys must be unique and are used to access the corresponding values.
 
 
-```
+```python
 mydict = {"name": "John", "age": 25}
 print(mydict["name"])  # Output: John
 ```
@@ -127,7 +127,7 @@ print(mydict["name"])  # Output: John
 Modules are  files containing definitions and statements. Packages are a way of structuring ’s module namespace by using “dotted module names”.
 
 
-```
+```python
 import math
 print(math.sqrt(16))  # Output: 4.0
 ```
